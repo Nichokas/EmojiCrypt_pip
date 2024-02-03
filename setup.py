@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name='EmojiCrypt_pip',                                      # Nombre del paquete
     packages=['EmojiCrypt_pip'],                                # Folder del paquete
-    version='0.1',                                              # Version de la libreria
+    version='1',                                              # Version de la libreria
     license='GNU v3',                                           # Licencia
     description='encrypt text in emojis',                       # Breve descripcion de la libreria
     long_description=long_description,
@@ -18,7 +18,7 @@ setup(
     keywords=[],                                                # Keywords para definir el paquete/libreria
     install_requires=[],
     classifiers=[
-        'Development Status :: 3 - Alpha',                      # Estados del paquete "3 - Alpha", "4 - Beta", "5 - Production/Stable"
+        'Development Status :: 5 - Production/Stable',          # Estados del paquete "3 - Alpha", "4 - Beta", "5 - Production/Stable"
         'Intended Audience :: Developers',                      # Definir cual es el publico al que va dirigido el paquete
         'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',            # Licencia
         'Programming Language :: Python :: 3',                  # Especificar las versiones de python que soportan el paquete
