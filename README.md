@@ -1,48 +1,42 @@
 # EmojiCrypt_pip
 
-EmojiCrypt_pip es un paquete de Python diseñado para ofrecer una forma única y divertida de cifrar y descifrar mensajes utilizando emojis. Este enfoque no solo hace que el proceso de cifrado sea más interesante, sino que también agrega una capa de abstracción al texto original, haciendo que el mensaje cifrado sea menos perceptible a primera vista.
+EmojiCrypt_pip is a Python package designed to provide a unique and fun way to encrypt and decrypt messages using emojis. This approach not only makes the encryption process more interesting, but also adds a layer of abstraction to the original text, making the encrypted message less noticeable at first glance.
 
-## Instalación
+## Installation
 
-Puedes instalar EmojiCrypt_pip directamente desde PyPI:
+You can install EmojiCrypt_pip directly from PyPI:
 
 ```bash
 pip install EmojiCrypt_pip
 ```
-Asegúrate de tener Python y pip ya instalados en tu sistema para poder ejecutar este comando sin problemas.
+Make sure you have Python and pip already installed on your system to be able to run this command without problems.
 
-## Uso
+## Usage
 
-EmojiCrypt_pip es extremadamente fácil de usar con solo dos funciones principales: encrypt para cifrar mensajes y decrypt para descifrar mensajes previamente cifrados con este paquete.
+EmojiCrypt_pip is extremely easy to use with only two main functions: encrypt to encrypt messages and decrypt to decrypt messages previously encrypted with this package.
 
-### Cifrar un mensaje
-Para cifrar un mensaje, simplemente importa la función encrypt y pásale el mensaje que deseas cifrar como argumento.
+### Encrypt a message
+To encrypt a message, simply import the encrypt function and pass it the message you want to encrypt as an argument.
 
 ```python
 from EmojiCrypt_pip import encrypt
 
-mensaje_cifrado = encrypt("Tu mensaje aquí")
-print(mensaje_cifrado)
+encrypted_message = encrypt("Your message here")
+print(encrypted_message)
 ```
-Esto convertirá tu mensaje en una cadena de emojis que representan el texto cifrado.
+This will convert your message into a string of emojis representing the ciphertext.
 
 
-### Descifrar un mensaje
-Para descifrar un mensaje que fue cifrado con EmojiCrypt_pip, utiliza la función decrypt de manera similar.
+### Decrypting a message
+To decrypt a message that was encrypted with EmojiCrypt_pip, use the decrypt function in a similar way.
 
 ```python
 from EmojiCrypt_pip import decrypt
 
-mensaje_descifrado = decrypt(mensaje_cifrado)
-print(mensaje_descifrado)
+decrypted_message = decrypt(decrypted_message)
+print(decrypted_message)
 ```
 
-Asegúrate de reemplazar mensaje_cifrado con la cadena de emojis que recibiste al cifrar tu mensaje original. Esto te devolverá el texto original.
+Be sure to replace decrypted_message with the emoji string you received when encrypting your original message. This 
 
-## Contribuir
-
-Si estás interesado en contribuir a este proyecto, ¡tus aportes son bienvenidos! Puedes contribuir con mejoras en el código, sugerencias o reportando bugs. Para ello, por favor, abre un issue o una pull request en el repositorio de GitHub. https://github.com/Nichokas/EmojiCrypt_pip
-
-## Licencia
-
-Este proyecto está licenciado bajo GNU General Public License v3.0, lo que significa que puedes utilizarlo, modificarlo y distribuirlo bajo los términos de esa licencia.
+Translated with DeepL.com (free version)
