@@ -7,7 +7,7 @@ setup(
     name='EmojiCrypt',                                          # Nombre del paquete
     packages=['EmojiCrypt'],                                    # Folder del paquete
     version='0.1',                                              # Version de la libreria
-    license='GNU v3',                                            # Licencia
+    license='GNU v3',                                           # Licencia
     description='encrypt text in emojis',                       # Breve descripcion de la libreria
     long_description=long_description,
     long_description_content_type="text/markdown",
