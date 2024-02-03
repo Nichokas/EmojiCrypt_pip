@@ -20,7 +20,7 @@ setup(
     classifiers=[
         'Development Status :: 3 - Alpha',                      # Estados del paquete "3 - Alpha", "4 - Beta", "5 - Production/Stable"
         'Intended Audience :: Developers',                      # Definir cual es el publico al que va dirigido el paquete
-        'License :: OSI Approved :: GNU v3 License',            # Licencia
+        'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',            # Licencia
         'Programming Language :: Python :: 3',                  # Especificar las versiones de python que soportan el paquete
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
