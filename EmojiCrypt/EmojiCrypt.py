@@ -5,6 +5,9 @@ emojis={'a': '😀', 'b': '🤓', 'c': '👀', 'd': '😁', 'e': '😆', 'f': '�
 
 
 def encrypt(ms):
+    """
+    Function to encrypt a message to emojis
+    """
     finals = []
     for letra in ms:
         x = emojis.get(letra)
@@ -16,6 +19,9 @@ def encrypt(ms):
 
 
 def decrypt(ms):
+    """
+    Function to descrypt emojis to a message
+    """
     finals = []
     for emoji in ms:
         for key, value in emojis.items():
