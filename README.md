@@ -1,4 +1,4 @@
-# EmojiCrypt
+# EmojiCrypt_pip
 EmojiCrypt is an open source project that allows you to encrypt and decrypt messages using emojis. It is a fun and creative way to communicate with your friends, family or colleagues.
 
 ![](https://i.ibb.co/ZVLvQ7J/156shots-so.png)
