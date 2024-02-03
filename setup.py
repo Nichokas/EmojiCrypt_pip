@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name='EmojiCrypt',                                          # Nombre del paquete
-    packages=['EmojiCrypt'],                                    # Folder del paquete
+    name='EmojiCrypt_pip',                                      # Nombre del paquete
+    packages=['EmojiCrypt_pip'],                                # Folder del paquete
     version='0.1',                                              # Version de la libreria
     license='GNU v3',                                           # Licencia
     description='encrypt text in emojis',                       # Breve descripcion de la libreria

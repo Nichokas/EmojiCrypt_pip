@@ -1,1 +1,0 @@
-from EmojiCrypt.EmojiCrypt import encrypt, decrypt
